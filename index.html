@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="p5.js"></script>
+  <script src="p5.dom.min.js"></script>
+  <script src="p5.sound.min.js"></script>
+  <script src="./p5.play.js"></script>
+  <script src= "./js/Game.js"></script>
+  <script src="./js/Form.js"></script>
+  <script src= "./js/Player.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyCR3jpnopWtyc66yrTw4o7RRrhGjk8cl9Q",
+      authDomain: "my-shooter-game.firebaseapp.com",
+      databaseURL: "https://my-shooter-game-default-rtdb.firebaseio.com",
+      projectId: "my-shooter-game",
+      storageBucket: "my-shooter-game.appspot.com",
+      messagingSenderId: "408278512130",
+      appId: "1:408278512130:web:382676d2116b6294766d1b"
+    };
+
+    firebase.initializeApp(firebaseConfig)
+  </script>
+
+
+</head>
+
+<body>
+
+
+
+  <script src="sketch.js"></script>
+
+
+
+
+</body>
+
+</html>
